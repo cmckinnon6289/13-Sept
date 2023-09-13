@@ -1,0 +1,82 @@
+/* exercise 1 */
+
+body {
+    font-family: helvetica;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.box1 {
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+/* exercise 2 */
+
+.container2 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+/* exercise 3 */
+
+.container3 {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container3 a {
+    color: skyblue;
+}
+
+.container3 a:hover {
+    color: white;
+}
+
+/* exercise 4 */
+
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.card4 {
+    height: 300px;
+    width: 250px;
+    flex: 1;
+    margin: 20px;
+    background: black;
+    color: white;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container4 {
+        flex-direction: column;
+    }
+}

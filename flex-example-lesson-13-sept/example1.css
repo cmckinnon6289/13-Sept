@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        width: fit-content;
+    }
+}

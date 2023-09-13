@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;
+    background-color: aqua;
+    height: 300px;*/
+}
+
+/* padding is spacing inside border, margin is spacing outside of border */
+
+.item {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #333;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 40px;
+    }
+}

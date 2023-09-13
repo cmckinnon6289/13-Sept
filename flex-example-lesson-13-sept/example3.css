@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #CCC;
+    background-color: #f2f2f2;
+    padding: 10px;
+    flex: 1;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    /* each card is 1 item. on page we have 3 items, so each item gets 1/3rd of the space. */
+}
+
+#card2 {
+    flex: 2;
+}
